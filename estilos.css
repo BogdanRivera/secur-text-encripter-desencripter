@@ -410,10 +410,11 @@ html, body {
 /* Media query para celular */
 @media screen and (max-width: 600px) and (min-width: 0px) {
     .input-encript{
+        position: absolute;
         top: 15%;
         left: 7%;
         width: 89%;
-        height: 35%;
+        height: 29%;
     }
 
     .principal .input-encript textarea{
@@ -456,7 +457,7 @@ html, body {
     .rectangle{
         width: 89%;
         height: 12em ;
-        top: 70%;
+        top: 80%;
         left: 5%;   
         margin-top: 20px;  
     }
@@ -488,7 +489,7 @@ html, body {
     }
 
     .buttons-encript{
-        top: 485px;
+        top: 44%;
         left: 5%;
         display: block;
         width: 90%;
