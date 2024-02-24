@@ -163,9 +163,9 @@ html, body {
 .btn-copy{
     display: none;
     position: relative;
-    width: 23% !important;
-    top: 239px;
-    left: 69%;
+    width: 50%;
+    top: 90%;
+    left: 14%;
     background-color: #dfe1e2;
     color: #0A3871;
     transition: 0.3s all ease;
@@ -299,10 +299,11 @@ html, body {
 /* Media query para tabletas */
 @media screen and (min-width: 600px) and (max-width: 1250px) {
     .input-encript{
+        position: absolute;
         top: 20%;
         left: 7%;
         width: 89%;
-        height: 70%;
+        height: 60%;
     }
 
     .principal .input-encript textarea{
@@ -397,12 +398,10 @@ html, body {
     }
 
     .btn-copy{
+        position: inherit;
         width: 70% !important;
-        top: 63%;
+        top: 85%;
         left: 15%;
-        background-color: #dfe1e2;
-        color: #0A3871;
-        transition: 0.3s all ease;
     }
 
 }
@@ -432,7 +431,7 @@ html, body {
 
     .link-git{
         position: absolute;
-        width: 37%;
+        width: 120px;
         top: 4%;
         left: 23%;
         height: 21px;
@@ -452,8 +451,6 @@ html, body {
         top: 2px;
         left: 2px;
     }
-
-
     .rectangle{
         width: 89%;
         height: 12em ;
@@ -515,12 +512,14 @@ html, body {
     }
 
     .btn-copy{
+        position: inherit;
         width: 70% !important;
-        top: 68%;
+        top: 75%;
         left: 15%;
-        background-color: #dfe1e2;
-        color: #0A3871;
-        transition: 0.3s all ease;
+    }
+
+    .copy-message{
+        top: 10%;
     }
 
 }
