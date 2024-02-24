@@ -23,6 +23,36 @@ html, body {
     gap: 2.5em;
 }
 
+.link-git{
+    position: fixed;
+    width: 130px;
+    background-color: #dee3e9;
+    top: 150px;
+    left: 2em;
+    height: 26px;
+    border-radius: 8px;
+    transition: 0.3s all ease-in-out;
+}
+
+.link-git a{
+    color: #0A3871;
+    text-decoration: none;
+}
+
+.link-git span{
+    position: relative;
+    bottom: 4px;
+}
+
+.link-git:hover{
+    background-color: #0A3871;
+}
+
+.link-git:hover a {
+    color: white; /* Cambia el color del texto a blanco en el hover */
+}
+
+
 .copy-message {
     display: none;
     position: fixed;
@@ -287,6 +317,29 @@ html, body {
         left: 4%;
     }
 
+    .link-git{
+        position: absolute;
+        width: 105px;
+        top: 3%;
+        left: 3.5%;
+        height: 21px;
+    }
+
+    .link-git svg{
+        width: 17px;
+        height: 17px;
+    }
+
+    .link-git span{
+        font-size:13px;
+    }
+
+    .link-git a{
+        position: absolute;
+        top: 2px;
+        left: 2px;
+    }
+
     .rectangle{
         width: 90%;
         height: 10em;
@@ -376,6 +429,30 @@ html, body {
         left: 3%;
     }
 
+    .link-git{
+        position: absolute;
+        width: 105px;
+        top: 4%;
+        left: 23%;
+        height: 21px;
+    }
+
+    .link-git svg{
+        width: 17px;
+        height: 17px;
+    }
+
+    .link-git span{
+        font-size:13px;
+    }
+
+    .link-git a{
+        position: absolute;
+        top: 2px;
+        left: 2px;
+    }
+
+
     .rectangle{
         width: 89%;
         height: 12em ;
@@ -389,7 +466,7 @@ html, body {
     }
 
     .area-texto{
-        width: 90%;
+        width: 85%;
         height: 1%;
         top: 5%;
     }

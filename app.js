@@ -15,7 +15,6 @@ let edoMensaje = 0;  /*0 es que está vacio y 1 que se usó un botón*/
 // Definir la media query
 const mediaQuery = window.matchMedia('(min-width: 600px) and (max-width: 1250px)');
 
-
 buttonEncript.addEventListener(("click"), (e)=>{
     let inputMessage = inputTxt.value; 
     const anchoPantalla = window.innerWidth;
@@ -62,7 +61,7 @@ buttonDesencript.addEventListener("click", (e)=>{
     mostrarElementos([areaMessage,btnCopy]);
     let mensajeProcesado = procesaTexto(inputMessage);
     let messageDesencriptado = desencripta(mensajeProcesado);
-    if(anchoPantalla>=800 && anchoPantalla<1250){
+    if(anchoPantalla>=600 && anchoPantalla<1250){
     message.innerHTML = capitalize(messageDesencriptado);
     areaTexto.style.height = '35em'; 
     }if(anchoPantalla<600){
