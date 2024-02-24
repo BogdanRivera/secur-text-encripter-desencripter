@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>CifraTexto</title>
+    <link rel="shortcut icon" href="./img/desencriptado.ico">
+</head>
+<body>
+
+    <div class="principal">
+        <div class="logo">
+            <img id="logo" src="./img/Logo.png" alt="logo-alura">
+        </div>
+        <div id="copy-message" class="copy-message">Mensaje copiado en el portapapeles</div>
+        <div class="input-encript">
+            <textarea id="input-txt" placeholder="Ingresa tu texto aqui"></textarea>
+        </div>
+
+        <div class="rectangle">
+            <img src="./img/mono.png" alt="mono-alura">
+            <div class="texto-inf">
+                <p id="message-inf">Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div class="area-texto">
+                <textarea readonly></textarea>
+            </div>
+        </div>
+
+        <button id="btn-cp" class="btn-copy buttons-design">Copiar</button>
+        
+        <div class="warning">
+            <span class="material-symbols-outlined warning-simbol">
+                error</span>
+        <p>Solo letras minúsculas y sin acentos</p>
+        </div>
+        
+        <div class="buttons-encript">
+            <button id="btn-ncr" class="color-encript buttons-design">Encriptar</button>
+            <button id="btn-dcr" class="color-desencript buttons-design">Desencriptar</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
