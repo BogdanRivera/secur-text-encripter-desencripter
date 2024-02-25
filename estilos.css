@@ -162,10 +162,10 @@ html, body {
 
 .btn-copy{
     display: none;
-    position: relative;
-    width: 50%;
+    position: static;
+    width: 80% !important;
     top: 90%;
-    left: 14%;
+    left: 11%;
     background-color: #dfe1e2;
     color: #0A3871;
     transition: 0.3s all ease;
