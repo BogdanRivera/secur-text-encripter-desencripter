@@ -27,8 +27,8 @@ html, body {
     position: fixed;
     width: 130px;
     background-color: #dee3e9;
-    top: 150px;
-    left: 2em;
+    top: 25%;
+    left: 2.2em;
     height: 26px;
     border-radius: 8px;
     transition: 0.3s all ease-in-out;
@@ -320,9 +320,9 @@ html, body {
 
     .link-git{
         position: absolute;
-        width: 105px;
-        top: 3%;
-        left: 3.5%;
+        width: 120px;
+        top: 9%;
+        left: 16%;
         height: 21px;
     }
 
@@ -385,11 +385,11 @@ html, body {
     }
 
     .warning{
-        width: 300px;
+        width: 100%;
         height: 18px;
         top: 66%;
-        left: 6%;
-        font-size: 16px;
+        left: 5%;
+        font-size: 14px;
     }
     
     .warning p{
@@ -401,6 +401,116 @@ html, body {
         position: inherit;
         width: 70% !important;
         top: 85%;
+        left: 15%;
+    }
+
+}
+
+/* Media query para tabletas o celulares en formato horizontal */
+@media screen and (min-width: 600px) and (max-width: 1250px) and (min-height: 100px) and (max-height: 600px) {
+    .input-encript{
+        position: absolute;
+        top: 20%;
+        left: 7%;
+        width: 89%;
+        height: 60%;
+    }
+
+    .principal .input-encript textarea{
+        height: 70%;
+    }
+
+    .logo img{
+        position: absolute;
+        top: 6%;
+        width: 50px;
+        height: 50px;
+        left: 4%;
+    }
+
+    .link-git{
+        position: absolute;
+        width: 120px;
+        top: 9%;
+        left: 11%;
+        height: 21px;
+    }
+
+    .link-git svg{
+        width: 17px;
+        height: 17px;
+    }
+
+    .link-git span{
+        font-size:13px;
+    }
+
+    .link-git a{
+        position: absolute;
+        top: 2px;
+        left: 2px;
+    }
+
+    .rectangle{
+        width: 90%;
+        height: 10em;
+        top: 89%;
+        left: 5%;   
+        margin-top: 20px;  
+    }
+    
+    .rectangle img{
+        display: none;
+    }
+
+    .area-texto{
+        width: 90%;
+        height: 15%;
+        top: 5%;
+    }
+
+    .area-texto textarea{
+        height: 390px;
+    }
+
+    .texto-inf{ 
+        width: 100%;
+        top: 12%;
+        left: 2%;
+        text-align: center;
+    }
+
+    .buttons-encript{
+        display: flex;
+        width: 95%;
+        left: 5%;
+        gap: 5%;
+        top: 70%;
+    }
+
+    .buttons-design{
+        position: relative;
+        width: 45%;
+        height: 67px;
+    }
+
+    .warning{
+        width: 100%;
+        height: 12px;
+        top: 64%;
+        left: 5%;
+        font-size: 9px;
+    }
+    
+    .warning p{
+        position: relative;
+        bottom: 3px;
+    }
+
+    .btn-copy{
+        position: inherit;
+        width: 70% !important;
+        top: 82%;
         left: 15%;
     }
 
@@ -452,11 +562,11 @@ html, body {
         left: 2px;
     }
     .rectangle{
-        width: 89%;
+        width: 90%;
         height: 12em ;
         top: 80%;
         left: 5%;   
-        margin-top: 20px;  
+        margin-top: 11px;  
     }
     
     .rectangle img{
@@ -482,7 +592,7 @@ html, body {
     }
 
     .texto-inf .message-info{
-        width: 100%;
+        width: 96%;
     }
 
     .buttons-encript{
