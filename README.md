@@ -1,4 +1,17 @@
-# Text Encryptor and Decryptor
+<h1 align="center"> Text Encryptor and Decryptor </h1>
+
+
+<p align="center">
+  <img src="https://github.com/BogdanRivera/secur-text-encripter-desencripter/assets/121648408/01bf4518-eaa4-4571-a841-e6795653d9a6" alt="Project logo">
+</p>
+
+   <p align="center">
+   <img src="https://img.shields.io/badge/STATUS-FINISHED-green">
+   </p>
+
+
+
+
 This project presents a sophisticated text encryptor and decryptor designed to adhere to specific rules. This work is the final project of the Alura Latam 'Beginner in Programming' course series. Developed using standard web technologies, including HTML, CSS, and JavaScript, it offers a seamless and secure solution for encoding and decoding messages. Experience the simplicity and effectiveness of cryptography with this tool dedicated to privacy and user-friendly functionality.
 
 ## Features
